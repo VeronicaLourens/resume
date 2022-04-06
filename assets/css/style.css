@@ -386,9 +386,19 @@ button[type='submit'] {
     background-color: #e84610;
 }
 
-/*--------------------------media quries */
+/*--------------------------------------------Map*/
+div#map {
+    min-height: 360px;
+}
+
+/*--------------------------------------------Media Queries*/
 
 @media(min-width: 992px) {
+    .section-column {
+        padding: 0 30px 30px;
+        float: none;
+        display: table-cell;
+    }
 
     .center-form {
         padding-top: 30px;
@@ -396,5 +406,6 @@ button[type='submit'] {
         margin: 0 auto;
         max-width: 50%;
     }
-
 }
+
+
